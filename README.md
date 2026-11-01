@@ -1,4 +1,4 @@
-# Lift-off · Frankfurt Runway Outlook
+# Lift-off · Frankfurt runway wind model
 
 A 48-hour hourly outlook for Frankfurt Airport runway direction, runway-18 weather usability and the next likely direction change.
 
@@ -7,6 +7,8 @@ A 48-hour hourly outlook for Frankfurt Airport runway direction, runway-18 weath
 For airport and airline operations staff exploring how advance weather information could support preparation and handovers, and engineers evaluating runway-direction forecasting. Select an hour, inspect its wind and uncertainty, and compare direction changes with runway-18 restrictions.
 
 [Timeline, tablet, model-quality and 3D screenshots](docs/images/README.md)
+
+Original repository: [werister/aiw-codex-hack](https://github.com/werister/aiw-codex-hack)
 
 **Deutsch:** Ein stündlicher 48-Stunden-Ausblick auf die Betriebsrichtung am Flughafen Frankfurt und die wetterbedingte Nutzbarkeit der Startbahn 18. Die Zeitleiste und Tabletansicht helfen beim Prüfen möglicher Änderungen. Die öffentliche Ausgabe zeigt eine offline berechnete Regelprognose; trainiertes Modell und Betriebsrichtungsdaten bleiben bis zur Klärung der Datenrechte ausgeschlossen. Unabhängige Demonstration, nicht für den operativen Einsatz.
 
@@ -17,8 +19,8 @@ For airport and airline operations staff exploring how advance weather informati
 Requires Node.js 22.18+ (24 tested).
 
 ```sh
-git clone https://github.com/jaydenbruck/aiw-codex-hack.git
-cd aiw-codex-hack
+git clone https://github.com/jaydenbruck/liftoff-wind-model.git
+cd liftoff-wind-model
 cd web
 npm ci
 npm run dev
